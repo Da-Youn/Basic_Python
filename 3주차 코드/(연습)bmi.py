@@ -1,0 +1,8 @@
+weight = float(input("몸무게를 입력하세요 (단위: kg) : "))
+height = float(input("키를 입력하세요 (단위: cm) : "))
+BMI = round(weight / (height/100)**2,2)
+print("당신의 몸무게는 :", weight, "키는 :", height)
+print("체질량 지수는 :", BMI, "입니다.")
+print("체질량 지수는 : "+ str(BMI) + " 입니다.")
+print("체질량 지수는 : %.2f 입니다." %BMI)
+print("체질량 지수는 : {} 입니다." .format(BMI))
