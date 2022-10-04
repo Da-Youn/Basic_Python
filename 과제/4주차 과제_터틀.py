@@ -64,14 +64,13 @@ for i in range(4):
     t.fd(100)
     t.lt(60)
 t.rt(180)
-t.fd(200)
+
 
 
 t.width(3)
 t.up()
 t.goto(-85,-100)
 t.down()
-
 t.fillcolor("brown")
 t.begin_fill()
 for i in range(3):
@@ -106,20 +105,17 @@ for i in range(2):
 t.end_fill()
 
 t.up()
-t.goto(15,-100)
+t.goto(185,-100)
 t.down()
 t.color("olive")
 t.fillcolor("olive")
 t.begin_fill()
 t.width(6)
 
-for i in range(7):
-    for j in range(8):
-        t.fd(4.75)
-        t.rt(360/16)
-    t.fd(4.75)
+for i in range(8):
+    t.circle(11,180)
     t.lt(180)
-t.lt(90)
+t.rt(90)
 t.fd(180)
 t.end_fill()
 
