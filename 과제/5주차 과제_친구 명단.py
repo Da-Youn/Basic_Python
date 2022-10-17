@@ -12,7 +12,10 @@ while True:
         if name_add == "예":
             friends.append(name)
             friends.sort()
+            print("="*30)
+            print("친구 목록")
             print(friends)
+            print("="*30)
         elif name_add == "아니오":
             continue
 print("검색을 종료합니다.")    
