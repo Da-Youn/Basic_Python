@@ -8,10 +8,10 @@ def ctemp():
     e2.insert(0,ctemp)
 
 def ftemp():
-    ctemp=float(e1.get()) #e1의 값을 가져온다
+    ctemp=float(e2.get()) #e1의 값을 가져온다
     ftemp=round((ctemp*9/5)+32)
-    e2.delete(0,END)
-    e2.insert(0,ftemp)    
+    e1.delete(0,END)
+    e1.insert(0,ftemp)    
 
 
 L1 = Label(root, text="화씨")
